@@ -1,0 +1,20 @@
+{
+  "name": "codelegacy/magento2-custom-logger",
+  "version": "1.0.0",
+  "description": "Use custom log file",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Codelegacy\\CustomLogger\\": ""
+    }
+  }
+}
